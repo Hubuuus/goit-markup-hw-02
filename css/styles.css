@@ -5,7 +5,7 @@ body {
   color: #757575;
 }
 
-ul {
+.not-dot {
   list-style-type: none;
 }
 .links {
@@ -168,7 +168,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-footer {
+.footer-background {
   background-color: var(--brand-background-color);
 }
 :root {
