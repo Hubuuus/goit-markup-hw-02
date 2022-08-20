@@ -16,12 +16,10 @@ body {
   text-decoration: none;
   color: var(--brand-article-color);
 }
-.links:focus {
+.links:focus,
+.links:hover {
   color: var(--brand-color);
   outline: none;
-}
-.links:hover {
-  color: #2196f3;
 }
 .logo-in-header {
   color: #000000;
@@ -77,14 +75,8 @@ body {
   padding: 6px 22px 6px 22px;
   border-radius: 4px;
 }
+.button:hover,
 .button:focus {
-  background-color: var(--brand-color);
-  color: var(--text-on-dark-background);
-  outline: none;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.button:hover {
   background-color: var(--brand-color);
   color: var(--text-on-dark-background);
   outline-color: var(--brand-color);
